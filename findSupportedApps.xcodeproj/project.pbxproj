@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		FEA3ECA9265FED9F0028F86D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA3ECA8265FED9F0028F86D /* main.swift */; };
+		FEA3ECB526602AB10028F86D /* ApplicationDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA3ECB426602AB10028F86D /* ApplicationDirectory.swift */; };
+		FEA3ECB82660401D0028F86D /* ApplicationMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA3ECB72660401D0028F86D /* ApplicationMetadata.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		FEA3ECA5265FED9F0028F86D /* findSupportedApps */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = findSupportedApps; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEA3ECA8265FED9F0028F86D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FEA3ECB426602AB10028F86D /* ApplicationDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationDirectory.swift; sourceTree = "<group>"; };
+		FEA3ECB72660401D0028F86D /* ApplicationMetadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationMetadata.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				FEA3ECA8265FED9F0028F86D /* main.swift */,
+				FEA3ECB426602AB10028F86D /* ApplicationDirectory.swift */,
+				FEA3ECB72660401D0028F86D /* ApplicationMetadata.swift */,
 			);
 			path = findSupportedApps;
 			sourceTree = "<group>";
@@ -78,6 +84,8 @@
 			dependencies = (
 			);
 			name = findSupportedApps;
+			packageProductDependencies = (
+			);
 			productName = findSupportedApps;
 			productReference = FEA3ECA5265FED9F0028F86D /* findSupportedApps */;
 			productType = "com.apple.product-type.tool";
@@ -105,6 +113,8 @@
 				Base,
 			);
 			mainGroup = FEA3EC9C265FED9F0028F86D;
+			packageReferences = (
+			);
 			productRefGroup = FEA3ECA6265FED9F0028F86D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -119,6 +129,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEA3ECB526602AB10028F86D /* ApplicationDirectory.swift in Sources */,
+				FEA3ECB82660401D0028F86D /* ApplicationMetadata.swift in Sources */,
 				FEA3ECA9265FED9F0028F86D /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
